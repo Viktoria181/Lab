@@ -17,7 +17,7 @@ int main() {
     double heightSquared = heightInMeters * heightInMeters;
 
     // Изчисляване на heightInMeters^(0.5)
-    double heightRoot = sqrt(heightInMeters); // or use heightInMeters * heightInMeters
+    double heightRoot = sqrt(heightInMeters); 
 
     // Изчисляване на индекса на телесната маса с новата формула
     bodyMassIndex = 1.3 * weightInKg / (heightSquared * heightRoot);
