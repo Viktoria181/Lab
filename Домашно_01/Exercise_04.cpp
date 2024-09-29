@@ -33,3 +33,9 @@ int main() {
 
     return 0;
 }
+
+
+
+$ g++ Exercise_04.cpp -o largest
+$ ./largest
+$ ./largest < numbers
