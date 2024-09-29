@@ -1,0 +1,20 @@
+# Препроцесиране
+g++ -E program.cpp -o program.i
+# Компилиране до асемблерен код:
+g++ -S program.cpp -o program.s
+# Компилиране до обектен код:
+g++ -c program.cpp -o program.o
+
+
+# Препроцесиране
+g++ -E swap.cpp -o swap.i
+# Компилиране до асемблерен код:
+g++ -S swap.cpp -o swap.s
+# Компилиране до обектен код:
+g++ -c swap.cpp -o swap.o
+
+# Линкване
+g++ program.o swap.o -o program
+
+# Изпълнение
+./program
