@@ -16,7 +16,6 @@ double calculateVolume(double radius, double filledHeight, double length) {
 int main() {
     double radius, filledHeight, length;
 
-    // Input
     std::cout << "Enter the radius of the cylinder (in meters): ";
     std::cin >> radius;
 
@@ -35,7 +34,6 @@ int main() {
     // Calculate volume
     double volume = calculateVolume(radius, filledHeight, length);
 
-    // Output the result
     std::cout << "The volume of the filled part of the cylinder is: " << volume << " cubic meters." << std::endl;
 
     return 0;
