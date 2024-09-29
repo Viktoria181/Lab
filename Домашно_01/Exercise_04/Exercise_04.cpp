@@ -5,7 +5,7 @@ int main() {
     std::cout << "Enter three numbers: ";
     std::cin >> num1 >> num2 >> num3;
 
-    int largest, second_largest;
+    int largest = 0, second_largest = 0;
 
     if (num1 >= num2) {
         if (num1 >= num3) {
