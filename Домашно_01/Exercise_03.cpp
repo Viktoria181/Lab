@@ -18,7 +18,7 @@ int main() {
     // Проверка дали височината е в допустимите граници
     if (filledHeight > height) {
         std::cerr << "Височината не може да надвишава височината на цилиндъра." << std::endl;
-        return 1; // Завръщане с код за грешка
+        return 1; // Код за грешка
     }
 
     double radiusSquared = radius * radius;
@@ -26,7 +26,7 @@ int main() {
     volume = 3.14 * radiusSquared * filledHeight;
 
     // Извеждане на резултата
-    std::cout << "Обемът на частта от цилиндъра, пълна до височина " << filledHeight
+    std::cout << "Обемът на частта от цилиндъра, пълен до височина " << filledHeight
         << " метра, е: " << volume << " кубически метра." << std::endl;
 
     return 0;
