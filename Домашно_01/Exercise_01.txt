@@ -1,29 +1,33 @@
 # 1. Създаване на директория и файлове
 mkdir day1
-touch day1/test1 day1/test2 day1/test3
+cd day1
+touch test1 test2 test3
 
 # 2. Добавяне на съдържание във файловете
 echo "Hello Bash" > test1
 date > test2
 echo $(basename "$PWD") > test3
 
-
 # 3. Създаване на директория и копиране на файловете
-mkdir day1/testDir
-cp day1/test1 day1/test2 day1/test3 day1/testDir
+mkdir testDir
+cp test1 test2 test3 testDir
+cd testDir
 
 # 4. Създаване на вложена директория и копиране на файловете
-mkdir day1/testDir/testNested
-cp day1/testDir/test1 day1/testDir/test2 day1/testDir/testNested
+mkdir testNested
+cp test1 test2 testNested
+cd ..
 
 # 5. Изтриване на файловете от day1
-rm day1/test1 day1/test2 day1/test3
+rm test1 test2 test3
 
 # 6. Копиране на съдържанието на testDir в testDirCopy
-cp -r day1/testDir day1/testDirCopy
+cp -r testDir testDirCopy
+cd testDir
 
 # 7. Изтриване на файла test1 от директорията testDir
-rm day1/testDir/test1
+rm test1
+cd ..
 
 # 8. Изтриване на директорията testDirCopy
-rm -r day1/testDirCopy
+rm -r testDirCopy
