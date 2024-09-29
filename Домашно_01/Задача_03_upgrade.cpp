@@ -28,7 +28,7 @@ int main() {
 
     // Check for valid inputs
     if (filledHeight > radius) {
-        std::cout << "The filled height cannot exceed the radius." << std::endl;
+        std::cerr << "The filled height cannot exceed the radius." << std::endl;
         return 1; // Exit with error
     }
 
