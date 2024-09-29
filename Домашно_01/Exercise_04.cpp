@@ -38,4 +38,5 @@ int main() {
 
 $ g++ Exercise_04.cpp -o largest
 $ ./largest
-$ ./largest < numbers
+$ ./largest < numbers.txt
+    
