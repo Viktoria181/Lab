@@ -2,9 +2,9 @@
 
 int main() {
     // Деклариране на променливите
-    float weightInKg;         // маса в килограми
-    float heightInMeters;     // ръст в метри
-    float bodyMassIndex;      // индекс на телесната маса (BMI)
+    double weightInKg;         // маса в килограми
+    double heightInMeters;     // ръст в метри
+    double bodyMassIndex;      // индекс на телесната маса (BMI)
 
     // Въвеждане на масата и ръста
     std::cout << "Въведете тегло в килограми: ";
