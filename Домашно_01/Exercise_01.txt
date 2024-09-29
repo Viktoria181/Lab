@@ -3,6 +3,9 @@ mkdir day1
 touch day1/test1 day1/test2 day1/test3
 
 # 2. Добавяне на съдържание във файловете
+echo "Hello Bash" > test1
+date > test2
+echo $(basename "$PWD") > test3
 
 
 # 3. Създаване на директория и копиране на файловете
