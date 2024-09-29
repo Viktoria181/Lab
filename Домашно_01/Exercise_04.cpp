@@ -38,5 +38,5 @@ int main() {
 
 $ g++ Exercise_04.cpp -o largest
 $ ./largest
-$ ./largest < numbers.txt
+$ ./largest < numbers.txt (ще вземе числата от файла numbers.txt)
     
