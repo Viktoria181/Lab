@@ -16,4 +16,6 @@ int main()
 	int average = sum / 3;
 
 	std::cout << "The average sum is: " << average;
+
+	retuen 0;
 }
