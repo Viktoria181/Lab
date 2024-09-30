@@ -18,4 +18,5 @@ int main()
 
 	std::cout << "The first number is " << number1 << ", \nthe second one is " << number2;
 
+	return 0;
 }
