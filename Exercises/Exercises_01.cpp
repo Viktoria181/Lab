@@ -13,9 +13,9 @@ int main()
 
 	std::cout << "Enter the first number: ";
 	std::cin >> number1;
-	std::cout << "Enter the second number: " << number2;
+	std::cout << "Enter the second number: ";
 	std::cin >> number2;
 
-	std::cout << "The first number is: " << number1 << ", \nthe second one is " << number2;
+	std::cout << "The first number is " << number1 << ", \nthe second one is " << number2;
 
 }
