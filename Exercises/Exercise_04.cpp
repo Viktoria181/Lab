@@ -19,4 +19,6 @@ int main()
 		number /= 10;
 	}
 	std::cout << "The reversed number is: " << finalNum;
+
+	return 0;
 }
