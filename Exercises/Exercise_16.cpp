@@ -27,6 +27,8 @@ int main()
 	average /= N;
 
 	std::cout << "The average amount of the entered numbers is: " << average;
+
+	return 0;
 }
 
 
