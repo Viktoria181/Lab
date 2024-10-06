@@ -16,6 +16,7 @@ void decToBinary(int number)
 		std::cout << result.top() << std::endl;
 		result.pop();
 	}
+	 std::cout << std::endl;
 }
 
 int main()
