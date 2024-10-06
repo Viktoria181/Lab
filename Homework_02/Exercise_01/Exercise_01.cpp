@@ -22,7 +22,7 @@ void decToBinary(int number)
 int main()
 {
 	int number;
-	std::cout << "Enter the number: ";
+	std::cout << "Enter the decimal number: ";
 	std::cin >> number;
 	 
 	decToBinary(number);
