@@ -1,0 +1,17 @@
+g++ Exercise_01_DecToBin.cpp -o DecToBin
+./DecToBin
+./DecToBin < numbers.txt //ще вземе числата от файла numbers.txt 
+
+
+g++ Exercise_01_DecToHex.cpp -o DecToHex
+./DecToHex
+./DecToHex < numbers.txt 
+
+
+g++ Exercise_01_DecToOct.cpp -o DecToOct
+./DecToOct
+./DecToOct < numbers.txt 
+
+
+  
+  
