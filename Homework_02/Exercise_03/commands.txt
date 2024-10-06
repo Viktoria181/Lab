@@ -1,0 +1,3 @@
+g++ Exercise_01_XOR.cpp -o XOR
+./XOR
+./XOR < numbers.txt //ще вземе числата от файла numbers.txt 
