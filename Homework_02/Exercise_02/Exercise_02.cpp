@@ -29,7 +29,7 @@ int main()
     {
         std::cout << "F(a, b, c) by ones: " << FunctionByOnes(a, b, c) << std::endl;
         std::cout << "F(a, b, c) by zeros: " << FunctionByZeros(a, b, c) << std::endl;
-        std::cout << "F(a, b, c) minimized: " << FunctionByZeros(a, b, c) << std::endl;
+        std::cout << "F(a, b, c) minimized: " << FunctionMinimized(a, b, c) << std::endl;
     }
     return 0;
 }
