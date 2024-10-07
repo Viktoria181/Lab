@@ -6,7 +6,7 @@ int main()
 	std::cout << "Number1 is: ";
 	std::cin >> number1;
 	std::cout << "Number2 is: ";
-    std::cin >> number2;
+        std::cin >> number2;
 
 	if ((number1 == 0 || number1 == 1) && (number2 == 0 || number2 == 1))
 	{
