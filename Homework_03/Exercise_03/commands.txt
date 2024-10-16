@@ -1,4 +1,4 @@
-g++ -o calculator calculator.cpp
+g++ -o calculator main.cpp calculator.cpp
 ./calculator 10 + 5.2
 
 // expected output: Result = 15.20
