@@ -1,0 +1,7 @@
+g++ -o stringCount stringCount.cpp
+./stringCount 'Strypes Bulgaria'
+Hello
+Strypes Bulgaria
+Sofia BG
+Strypes Bulgaria
+1234
