@@ -34,7 +34,7 @@ double stringToDouble(const char* str) {
                 std::cerr << "Error: Multiple decimal points found in number." << std::endl;
                 return 0.0;
             }
-            decimalFound = true; // Mark that we've encountered the decimal point
+            decimalFound = true; 
         } else {
             // Invalid character
             std::cerr << "Error: Invalid character in input." << std::endl;
