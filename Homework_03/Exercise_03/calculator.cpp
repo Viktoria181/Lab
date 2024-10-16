@@ -1,6 +1,6 @@
 #include <iostream>
 #include <iomanip>  // For std::setprecision
-#include "calculator.h" // Include the header file
+#include "calculator.h" 
 
 double stringToDouble(const char* str) {
     double result = 0.0;
